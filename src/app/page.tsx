@@ -6,7 +6,7 @@ import Projects from "@/components/Projects";
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center flex-col items-center overflow-hidden">
-      <div className="w-full">
+      <div className="w-full scroll-smooth">
         <Navbar />
         <Hero />
         <Projects />

@@ -43,7 +43,7 @@ const ProjectCard = ({
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 line-clamp-6"
         >
           {des}
         </CardItem>
@@ -69,7 +69,7 @@ const ProjectCard = ({
             translateZ={20}
             as={Link}
             href={live_link}
-            target="__blank"
+            target="_blank"
             className="p-2 border border-white rounded-xl text-xs font-normal dark:text-white"
           >
             Try now →
@@ -77,7 +77,7 @@ const ProjectCard = ({
           <CardItem
             translateZ={20}
             as={Link}
-            target="__blank"
+            target="_blank"
             href={github_link}
             className="px-4 py-2 flex items-center gap-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs"
           >

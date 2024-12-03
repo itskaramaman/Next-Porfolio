@@ -75,40 +75,60 @@ export const projectItems = [
     des: `Property Rhythm is a modern property management platform built with Next.js, TypeScript, Tailwind CSS, NextAuth.js, MongoDB, and other cutting-edge technologies. It empowers users to effortlessly discover rental properties, upload listings, save favorites, and engage
           directly with property managers.`,
     img: "/propertyRhythm.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/mongodb.svg",
+      "/nodejs.svg",
+    ],
     live_link: "https://property-rhythm.vercel.app/",
     github_link: "https://github.com/itskaramaman/Property-Rhythm",
   },
-
   {
     id: 2,
-    title: "Property Rhythm",
-    des: `Property Rhythm is a modern property management platform built with Next.js, TypeScript, Tailwind CSS, NextAuth.js, MongoDB, and other cutting-edge technologies. It empowers users to effortlessly discover rental properties, upload listings, save favorites, and engage
-          directly with property managers.`,
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    live_link: "https://property-rhythm.vercel.app/",
-    github_link: "https://github.com/itskaramaman/Property-Rhythm",
+    title: "Sleek UI Weather App",
+    des: `A modern weather application developed using ReactJS, TypeScript, TanStack Query, Tailwind CSS, Shadcn, and Recharts.
+          The app provides real-time weather updates, a 12-hour forecast, and a 5-day outlook. Users can search for cities, 
+          mark them as favorites, and enjoy a fully responsive design. Built with industry-level coding practices and deployed on Netlify for seamless accessibility.`,
+    img: "/weatherApp.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/tanstackReactQuery.svg",
+      "/nodejs.svg",
+    ],
+    live_link: "https://weather-app-karam.netlify.app/",
+    github_link: "https://github.com/itskaramaman/tanstack-shad-weather-app",
   },
   {
     id: 3,
-    title: "Property Rhythm",
-    des: `Property Rhythm is a modern property management platform built with Next.js, TypeScript, Tailwind CSS, NextAuth.js, MongoDB, and other cutting-edge technologies. It empowers users to effortlessly discover rental properties, upload listings, save favorites, and engage
-          directly with property managers.`,
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    live_link: "https://property-rhythm.vercel.app/",
-    github_link: "https://github.com/itskaramaman/Property-Rhythm",
+    title: "Youtube clone",
+    des: `A fully functional YouTube-inspired application built with ReactJS and Tailwind CSS. 
+          It features responsive video cards with hover effects, seamless iframe integration for video playback, 
+          and a clean, intuitive user interface. This project highlights advanced frontend development practices 
+          and a commitment to delivering user-friendly, visually appealing experiences.`,
+    img: "/youtube.png",
+    iconLists: ["/re.svg", "/tail.svg", "/nodejs.svg"],
+    live_link: "https://youtube-identical-twin.netlify.app/",
+    github_link: "https://github.com/itskaramaman/youtube-clone",
   },
   {
     id: 4,
-    title: "Property Rhythm",
-    des: `Property Rhythm is a modern property management platform built with Next.js, TypeScript, Tailwind CSS, NextAuth.js, MongoDB, and other cutting-edge technologies. It empowers users to effortlessly discover rental properties, upload listings, save favorites, and engage
-          directly with property managers.`,
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    live_link: "https://property-rhythm.vercel.app/",
-    github_link: "https://github.com/itskaramaman/Property-Rhythm",
+    title: "Movie World",
+    des: `A dynamic and engaging movie browsing platform built with ReactJS, React Router, and Axios. 
+          The app allows users to explore a vast library of movies with features like infinite scrolling 
+          for seamless navigation and lazy loading for optimized performance. It includes a user-friendly 
+          interface enhanced by React Icons and offers a responsive design for an exceptional experience 
+          across all devices. Deployed on Netlify, this project demonstrates modern frontend development 
+          practices and ensures fast and reliable access for users.
+
+`,
+    img: "/movieWorld.png",
+    iconLists: ["/re.svg", "/tail.svg", "/nodejs.svg"],
+    live_link: "https://karamjeet-movies-world.netlify.app/",
+    github_link: "https://github.com/itskaramaman/React-Movies",
   },
 ];
 

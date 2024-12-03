@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BackgroundBeamsWithCollision } from "./ui/background-beams-with-collision";
 import MagicButton from "./ui/magic-button";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
@@ -23,7 +24,9 @@ const Hero = () => {
             className="text-center"
           />
           <div className="flex justify-center mt-5">
-            <MagicButton>Show my work</MagicButton>
+            <MagicButton>
+              <Link href={"#projects"}>Show my work</Link>
+            </MagicButton>
           </div>
         </div>
       </BackgroundBeamsWithCollision>
