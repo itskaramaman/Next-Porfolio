@@ -1,6 +1,7 @@
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import ProfessionalTimeline from "@/components/ProfessionalTimeline";
 import Projects from "@/components/Projects";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Projects />
+        <ProfessionalTimeline />
         <Contact />
       </div>
     </main>

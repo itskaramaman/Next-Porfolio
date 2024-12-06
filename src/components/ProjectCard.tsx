@@ -43,7 +43,7 @@ const ProjectCard = ({
         <CardItem
           as="p"
           translateZ="60"
-          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 line-clamp-6"
+          className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 line-clamp-6 relative z-10"
         >
           {des}
         </CardItem>
