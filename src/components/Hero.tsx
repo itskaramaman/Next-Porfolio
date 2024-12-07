@@ -2,12 +2,22 @@ import Link from "next/link";
 import { BackgroundBeamsWithCollision } from "./ui/background-beams-with-collision";
 import MagicButton from "./ui/magic-button";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
+import Image from "next/image";
 
 const Hero = () => {
   return (
     <div>
       <BackgroundBeamsWithCollision>
         <div>
+          <div className="w-full flex justify-center">
+            <Image
+              src="/meCircle.png"
+              alt="profile-pic"
+              width={200}
+              height={200}
+              className="relative z-20"
+            />
+          </div>
           <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
             Transforming Ideas into SaaS
             <div className="relative mx-auto w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
