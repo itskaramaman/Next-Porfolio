@@ -7,10 +7,10 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="h-[40rem] w-full rounded-md bg-neutral-900 relative flex flex-col items-center justify-center antialiased"
+      className="h-[30rem] sm:h-[40rem] w-full rounded-md bg-neutral-900 relative flex flex-col items-center justify-center antialiased"
     >
       <div className="relative z-10 flex flex-col justify-center items-center gap-5 w-full h-full">
-        <h1 className="text-4xl">
+        <h1 className="text-xl md:text-4xl">
           Elevate your online presence to new heights.
         </h1>
         <MagicButton className="relative z-10">
@@ -23,7 +23,7 @@ const Contact = () => {
         </MagicButton>
         <footer className="absolute bottom-0 w-full z-10 flex justify-between items-center px-6 py-4 bg-neutral-800 text-white">
           <div>
-            <p className="">Copyright @{year} Karamjeet Singh Jandu </p>
+            <p className="text-sm sm:text-base">Copyright @{year} Karamjeet Singh Jandu </p>
           </div>
           <div className="flex items-center gap-5">
             <a
@@ -32,7 +32,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="hover:text-gray-400"
             >
-              <Github className="h-5 w-5" />
+              <Github className="h-4 w-4 sm:h-5 sm:w-5" />
             </a>
             <a
               href="https://www.linkedin.com/in/karamjeet-singh-12101995/"
@@ -40,7 +40,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="hover:text-gray-400"
             >
-              <Linkedin className="h-5 w-5" />
+              <Linkedin className="h-4 w-4 sm:h-5 sm:w-5" />
             </a>
           </div>
         </footer>

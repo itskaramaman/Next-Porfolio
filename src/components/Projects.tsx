@@ -11,7 +11,7 @@ const Projects = () => {
         </span>
       </h1>
 
-      <div className="flex flex-wrap gap-20 justify-center">
+      <div className="p-5 sm:flex sm:flex-wrap sm:gap-20 sm:justify-center">
         {projectItems.map((project) => (
           <ProjectCard
             key={project.id}

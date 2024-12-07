@@ -6,7 +6,7 @@ const ProfessionalTimeline = () => {
       title: "2014 to 2018",
       content: (
         <div className="space-y-6 p-6 dark:bg-neutral-950 rounded-lg shadow-lg">
-          <h1 className="text-3xl font-semibold text-white">
+          <h1 className="text-xl sm:text-3xl font-semibold text-white">
             Bachelor’s in Computer Science and Information Systems
           </h1>
           <p className="text-lg text-gray-300">
@@ -31,7 +31,7 @@ const ProfessionalTimeline = () => {
       title: "2019 to 2021",
       content: (
         <div className="space-y-6 p-6 dark:bg-neutral-950 rounded-lg shadow-md">
-          <h1 className="text-2xl font-bold text-white">
+          <h1 className="text-xl sm:text-2xl font-bold text-white">
             Full Stack Developer at Regalix, India
           </h1>
           <ul className="list-disc pl-5 text-gray-300 space-y-4">
@@ -66,7 +66,7 @@ const ProfessionalTimeline = () => {
       title: "2021 to 2022",
       content: (
         <div className="space-y-6 p-6 dark:bg-neutral-950 rounded-lg shadow-lg">
-          <h1 className="text-3xl font-semibold text-white">
+          <h1 className="text-xl sm:text-3xl font-semibold text-white">
             Teaching Assistant at Douglas College
           </h1>
           <ul className="list-disc pl-5 text-gray-300 space-y-3">
@@ -97,8 +97,8 @@ const ProfessionalTimeline = () => {
       title: "2022 to 2024",
       content: (
         <div className="space-y-6 p-6 dark:bg-neutral-950 rounded-lg shadow-md">
-          <h1 className="text-2xl font-bold text-white">
-            Professional Experience
+          <h1 className="text-xl sm:text-2xl font-bold text-white">
+            Paladin Experience
           </h1>
           <ul className="list-disc pl-5 text-gray-300 space-y-4">
             <li>
@@ -128,7 +128,7 @@ const ProfessionalTimeline = () => {
       title: "2024",
       content: (
         <div className="space-y-6 p-6 dark:bg-neutral-950 rounded-lg shadow-md">
-          <h1 className="text-2xl font-bold text-white">
+          <h1 className="text-xl sm:text-2xl font-bold text-white">
             Technical Projects and Learning Journey
           </h1>
           <ul className="list-disc pl-5 text-gray-300 space-y-4">
