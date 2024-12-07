@@ -1,6 +1,6 @@
 import { BackgroundBeams } from "./ui/background-beams";
 import MagicButton from "./ui/magic-button";
-import { ArrowUpRight, Github, Linkedin } from "lucide-react";
+import { ArrowUpRight, Github, Linkedin, FileText } from "lucide-react";
 
 const Contact = () => {
   const year = new Date().getFullYear();
@@ -10,20 +10,37 @@ const Contact = () => {
       className="h-[30rem] sm:h-[40rem] w-full rounded-md bg-neutral-900 relative flex flex-col items-center justify-center antialiased"
     >
       <div className="relative z-10 flex flex-col justify-center items-center gap-5 w-full h-full">
-        <h1 className="text-xl md:text-4xl">
-          Elevate your online presence to new heights.
+        <h1 className="text-xl px-5 md:text-4xl">
+          Elevate your{" "}
+          <span className="bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
+            online presence to new heights.
+          </span>
         </h1>
-        <MagicButton className="relative z-10">
-          <a
-            href="mailto:singhkaramjeetaman@gmail.com"
-            className="flex items-center cursor-pointer"
-          >
-            Contact Me Now <ArrowUpRight />
-          </a>
-        </MagicButton>
+        <div className="relative z-10 flex gap-2 sm:gap-5">
+          <MagicButton>
+            <a
+              href="mailto:singhkaramjeetaman@gmail.com"
+              className="text-xs sm:text-base flex items-center cursor-pointer"
+            >
+              Contact Me Now <ArrowUpRight className="h-4 w-4 sm:h-5 sm:w-5" />
+            </a>
+          </MagicButton>
+          <MagicButton>
+            <a
+              href="/Karamjeet_Software_Developer_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs sm:text-base flex items-center cursor-pointer"
+            >
+              Hire Me <FileText className="h-4 w-4 ml-1 sm:h-5 sm:w-5" />
+            </a>
+          </MagicButton>
+        </div>
         <footer className="absolute bottom-0 w-full z-10 flex justify-between items-center px-6 py-4 bg-neutral-800 text-white">
           <div>
-            <p className="text-sm sm:text-base">Copyright @{year} Karamjeet Singh Jandu </p>
+            <p className="text-sm sm:text-base">
+              Copyright @{year} Karamjeet Singh Jandu{" "}
+            </p>
           </div>
           <div className="flex items-center gap-5">
             <a
