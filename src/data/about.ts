@@ -80,6 +80,23 @@ export const gridItems = [
 export const projectItems = [
   {
     id: 1,
+    title: "Meeting Scheduler",
+    des: `Meeting Scheduler is a scheduling app platform built with Next.js, TypeScript, Tailwind CSS, Shadcn, Prisma, Postgres, Clerk, Zod and React-Hook-Form. It empowers users to create private and public events. Bookings and set their availability to make meeting schedule easy.`,
+    img: "/meetingSchedule.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/mongodb.svg",
+      "/nodejs.svg",
+      "/prisma-2.svg",
+      "/postgresql.svg",
+    ],
+    live_link: "https://karamjeet-meeting-scheduler.vercel.app/",
+    github_link: "https://github.com/itskaramaman/meeting-scheduler",
+  },
+  {
+    id: 2,
     title: "Property Rhythm",
     des: `Property Rhythm is a modern property management platform built with Next.js, TypeScript, Tailwind CSS, NextAuth.js, MongoDB, and other cutting-edge technologies. It empowers users to effortlessly discover rental properties, upload listings, save favorites, and engage
           directly with property managers.`,
@@ -95,7 +112,7 @@ export const projectItems = [
     github_link: "https://github.com/itskaramaman/Property-Rhythm",
   },
   {
-    id: 2,
+    id: 3,
     title: "Sleek UI Weather App",
     des: `A modern weather application developed using ReactJS, TypeScript, TanStack Query, Tailwind CSS, Shadcn, and Recharts.
           The app provides real-time weather updates, a 12-hour forecast, and a 5-day outlook. Users can search for cities, 
@@ -112,7 +129,7 @@ export const projectItems = [
     github_link: "https://github.com/itskaramaman/tanstack-shad-weather-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Youtube clone",
     des: `A fully functional YouTube-inspired application built with ReactJS and Tailwind CSS. 
           It features responsive video cards with hover effects, seamless iframe integration for video playback, 
@@ -124,7 +141,7 @@ export const projectItems = [
     github_link: "https://github.com/itskaramaman/youtube-clone",
   },
   {
-    id: 4,
+    id: 5,
     title: "Movie World",
     des: `A dynamic and engaging movie browsing platform built with ReactJS, React Router, and Axios. 
           The app allows users to explore a vast library of movies with features like infinite scrolling 
