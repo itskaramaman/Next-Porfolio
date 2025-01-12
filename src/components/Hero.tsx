@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="w-full flex justify-center">
             <Image
               src="/meCircle.png"
-              alt="profile-pic"
+              alt="Karamjeet Singh - Full Stack Developer"
               width={200}
               height={200}
               className="relative z-20"
