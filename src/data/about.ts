@@ -3,7 +3,7 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/karamjeet-singh-12101995/",
+    link: "https://www.linkedin.com/in/karamjeet-singh-jandu/",
     blank: true,
   },
   {
