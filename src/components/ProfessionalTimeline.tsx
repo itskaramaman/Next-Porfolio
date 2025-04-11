@@ -32,7 +32,7 @@ const ProfessionalTimeline = () => {
       content: (
         <div className="space-y-6 p-6 dark:bg-neutral-950 rounded-lg shadow-md">
           <h1 className="text-xl sm:text-2xl font-bold text-white">
-            Full Stack Developer at Regalix, India
+            Full Stack Developer at Nytro.ai, India
           </h1>
           <ul className="list-disc pl-5 text-gray-300 space-y-4">
             <li>
